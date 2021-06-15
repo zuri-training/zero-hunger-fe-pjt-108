@@ -69,6 +69,13 @@ nav button#signup-btn {
     background: #27B46E;
 }
 
+nav #hamburger-icon {
+    display: none;
+    float: right;
+    margin-top: 2%;
+    cursor: pointer;
+}
+
 
 section {
     padding: 10% 5%;
@@ -399,9 +406,45 @@ footer > div.flex div.socials a img {
         display: block;
     }
 
-    nav ul.nav-items {
-        display: none;
+    nav {
+        padding-top: 5%;
     }
+
+    nav ul.nav-items {
+        float: none;
+        display: block;
+        margin-top: 5%;
+        width: 100%;
+        height: 0em; /*changed with js*/
+        overflow: hidden;
+        transition: 0.3s ease-in-out;
+    }
+
+    .active-nav-list {
+        height: 20em !important;
+    }
+
+    nav ul.nav-items li {
+        display: block;
+        margin: 10% 0;
+        text-align: left;
+    }
+
+    nav ul.nav-items li:first-of-type {
+        margin-top: 0;
+        padding-top: 10%;
+        border-top: 1px solid black;
+    }
+
+    nav ul.nav-items button {
+        padding: 2.5% 10%;
+    }
+
+
+    nav #hamburger-icon {
+        display: block;
+    }
+
 
     section h2 {
         font-size: 2em;
@@ -458,7 +501,7 @@ footer > div.flex div.socials a img {
     div.bragging-rights .column {
         padding: 10%;
         margin: 20% 0;
-        background-size: 50%;
+        background-size: 100%;
     }
 
     section.more-info-1 {

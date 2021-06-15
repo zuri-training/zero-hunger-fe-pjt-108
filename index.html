@@ -5,7 +5,7 @@
         <meta name="viewport" content="width = device-width, initial-scale = 1">
 
         <title>Zero Hunger</title>
-        <link rel="shortcut icon" href=".ico">
+        <link rel="shortcut icon" href="img/favicon.png">
 
         <link rel="stylesheet" href="main.css">
 
@@ -16,13 +16,21 @@
         <nav>
             <img src="img/nav-logo.svg" alt="Logo">
 
-            <ul class="nav-items flex">
+            <!-- Hamburger Icon for Mobile devices -->
+            <svg width="23" height="16" viewBox="0 0 23 16" fill="none" xmlns="http://www.w3.org/2000/svg" id = "hamburger-icon">
+                <line y1="1" x2="23" y2="1" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                <line y1="7.34473" x2="23" y2="7.34473" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+                <line y1="14.4827" x2="23" y2="14.4827" stroke="black" stroke-opacity="0.7" stroke-width="2"/>
+            </svg>
+
+            <ul class="nav-items flex" id="nav-list">
                 <li><a href="#">How it works</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">FAQ</a></li>
                 <li><a href="#"><button id="login-btn">Login</button></a></li>
                 <li><a href="#"><button id="signup-btn">Sign up</button></a></li>
             </ul>
+
         </nav>
 
 
@@ -222,5 +230,16 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            const navList = document.getElementById("nav-list");
+            const hamburger = document.querySelector("#hamburger-icon");
+
+            hamburger.addEventListener('click', toggleMenu);
+
+            function toggleMenu() {
+                navList.classList.toggle('active-nav-list');
+            }
+        </script>
     </body>
 </html>
