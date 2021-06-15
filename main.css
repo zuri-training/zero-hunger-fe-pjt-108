@@ -394,7 +394,7 @@ footer > div.flex div.socials a img {
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     .flex {
         display: block;
     }
@@ -441,6 +441,11 @@ footer > div.flex div.socials a img {
         font-size: 1.2em;
     }
 
+    section.process-we-follow .flex .second-column img {
+        display: block;
+        margin: 0 auto 10%;
+    }
+
     section.ending-food-insecurity p {
         margin-top: 5%;
         font-size: 1.2em;
@@ -475,6 +480,11 @@ footer > div.flex div.socials a img {
     section.more-info-1 h2,
     section.more-info-2 h2 {
         font-size: 2em;
+    }
+
+    img#more-info-2-img {
+        width: 100%;
+        padding: 0 5%;
     }
 
     section.reviews img.big-quote-mark {
@@ -551,10 +561,5 @@ footer > div.flex div.socials a img {
         width: 100%;
         justify-content: center;
         margin-top: 5%;
-    }
-
-    img#more-info-2-img {
-        width: 100%;
-        padding: 0 5%;
     }
 }
