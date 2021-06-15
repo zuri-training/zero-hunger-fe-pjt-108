@@ -94,6 +94,7 @@ section.hero {
 
 section.hero img {
     float: right;
+    margin-top: -30%;
 }
 
 
@@ -106,6 +107,7 @@ section.hero h1 {
 section.hero h1 span {
     color: #FE9A22;
     font-size: 100%;
+    font-weight: inherit;
 }
 
 section.hero p {
@@ -136,6 +138,8 @@ section.reduce-food-waste .flex .column {
 
 section.reduce-food-waste .flex .column h3 {
     margin: 5% 0 1%;
+    font-size: 1.5em;
+    font-weight: 600;
 }
 
 section.process-we-follow h2,
@@ -385,4 +389,171 @@ footer > div.flex div.socials a {
 footer > div.flex div.socials a img {
     width: 60%;
     height: 60%;
+}
+
+
+
+
+@media (max-width: 800px) {
+    .flex {
+        display: block;
+    }
+
+    nav ul.nav-items {
+        display: none;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section p.heading-description {
+        margin-bottom: 10%;
+    }
+
+    section > img {
+        width: 100%;
+    }
+
+    section.hero h1 {
+        margin-right: 10%;
+        font-size: 2.5em;
+    }
+
+    section.hero p {
+        margin: 2% 20% 5% 0;
+    }
+
+    section.hero button {
+        width: 60%;
+    }
+
+    section.hero img {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    section.reduce-food-waste .flex .column {
+        margin: 10% 0;
+    }
+
+    section.reduce-food-waste .flex .column h3 {
+        font-size: 1.2em;
+    }
+
+    section.ending-food-insecurity p {
+        margin-top: 5%;
+        font-size: 1.2em;
+    }
+
+    div.bragging-rights {
+        margin: 10% 0;
+    }
+
+    div.bragging-rights .column {
+        padding: 10%;
+        margin: 20% 0;
+        background-size: 50%;
+    }
+
+    section.more-info-1 {
+        padding: 0;
+    }
+
+    section.more-info-1 > img[alt="Image"] {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    section.more-info-1 h2,
+    section.more-info-1 p,
+    section.more-info-1 a {
+        padding: 0 5%;
+    }
+
+    section.more-info-1 h2,
+    section.more-info-2 h2 {
+        font-size: 2em;
+    }
+
+    section.reviews img.big-quote-mark {
+        position: unset;
+        width: 20%;
+        margin: unset;
+    }
+
+    section.reviews h2,
+    section.reviews p.heading-description {
+        margin: 0;
+    }
+
+    section.reviews h2 {
+        margin: 10% 20% 0 0;
+    }
+
+    section.reviews .flex {
+        margin: 10% 0 0;
+    }
+
+    section.reviews .flex .review-card img {
+        position: unset;
+        margin: 0;
+    }
+
+    section.reviews .flex .other-reviews-container {
+        margin-top: 10%;
+        padding: 0;
+    }
+
+    section.reviews .flex .other-reviews-container div {
+        padding: 5%;
+    }
+
+    section.app h2 {
+        margin-right: 10%;
+    }
+
+    section.app p.heading-description {
+        margin-right: 10%;
+    }
+
+    section.app > img {
+        float: none;
+         margin-top: 10%;
+    }
+
+
+    footer img[alt="Logo"] {
+        margin: 0;
+    }
+
+    footer ul.footer-nav-items {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    footer ul.footer-nav-items li {
+        margin: 10% 0;
+        text-align: left;
+    }
+
+    footer ul.footer-nav-items li:last-of-type {
+        margin-top: 20%;
+    }
+
+    footer div.flex p.copyright {
+        text-align: center;
+    }
+
+    footer div.flex div.socials {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+
+    img#more-info-2-img {
+        width: 100%;
+    }
 }
