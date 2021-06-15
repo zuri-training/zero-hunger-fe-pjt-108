@@ -421,7 +421,7 @@ footer > div.flex div.socials a img {
     }
 
     .active-nav-list {
-        height: 20em !important;
+        height: auto !important;
     }
 
     nav ul.nav-items li {
