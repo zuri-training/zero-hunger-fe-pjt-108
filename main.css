@@ -555,5 +555,6 @@ footer > div.flex div.socials a img {
 
     img#more-info-2-img {
         width: 100%;
+        padding: 0 5%;
     }
 }
