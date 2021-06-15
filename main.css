@@ -1,0 +1,292 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+li {
+    list-style: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+
+nav {
+    padding: 2% 5%;
+}
+
+nav ul {
+    float: right;
+    width: 40%;
+}
+
+nav ul li {
+    flex: 20%;
+    text-align: center;
+}
+
+nav button {
+    margin-top: -10%;
+    padding: 5%;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+}
+
+
+section {
+    padding: 10% 5%;
+    overflow: hidden;
+}
+
+section h2 {
+    font-size: 3em;
+}
+
+section p.heading-description {
+    margin-top: 1%;
+    font-size: 1.2em;
+}
+
+section.hero {
+    background-image: url("img/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.hero img {
+    float: right;
+}
+
+
+section.hero h1 {
+    margin-right: 60%;
+    font-size: 4em;
+}
+
+section.hero h1 span {
+    color: #FE9A22;
+    font-size: 100%;
+}
+
+section.hero p {
+    margin: 2% 60% 2% 0;
+    font-size: 1.3em;
+}
+
+section.hero button {
+    width: 20%;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #27B46E;
+}
+
+section.reduce-food-waste {
+    text-align: center;
+}
+
+section.reduce-food-waste .flex {
+    margin-top: 5%;
+}
+
+section.reduce-food-waste .flex .column {
+    flex: 33.33%;
+}
+
+section.reduce-food-waste .flex .column h3 {
+    margin: 5% 0 1%;
+}
+
+section.process-we-follow h2,
+section.process-we-follow p {
+    text-align: center;
+}
+
+section.process-we-follow .flex {
+    margin-top: 5%;
+}
+
+section.process-we-follow .flex .column {
+    flex: 33.33%;
+}
+
+section.process-we-follow .flex .donor-donee-styling h3 {
+    margin-bottom: 5%;
+    color: #FE9A22;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+section.process-we-follow .flex .donor-donee-styling h4 {
+    text-align: center;
+}
+
+section.process-we-follow .flex .donor-donee-styling img[alt="Icon"] {
+    display: block;
+    margin: 2% auto;
+    padding: 5%;
+    border-radius: 50px;
+    background: #F4F5F7;
+}
+
+section.process-we-follow .flex .donor-donee-styling img[alt="Arrow Icon"] {
+    display: block;
+    margin: 5% auto;
+}
+
+section.process-we-follow .flex .second-column {
+    padding-top: 20%;
+}
+
+
+
+section.ending-food-insecurity {
+    background: #AFE3C9;
+}
+
+div.bragging-rights {
+    padding: 0 5%;
+    margin-top: -5%;
+}
+
+div.bragging-rights .column {
+    flex: 25%;
+    padding: 5%;
+    text-align: center;
+    background-image: url("img/hexagon-bg.svg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.bragging-rights .column h3 {
+    font-size: 3em;
+}
+
+section.more-info-1,
+section.more-info-2 {
+    padding-bottom: 0;
+}
+
+section.more-info-1 img[alt="Image"]{
+    float: left;
+    padding-right: 10%;
+}
+
+section.more-info-1 h2 {
+    margin-top: 20%;
+    font-size: 2.4em;
+}
+
+section.more-info-1 p {
+    margin: 2% 0 1%;
+}
+
+section.more-info-1 a {
+    color: #27B46E;
+    font-size: 1.2em;
+}
+
+
+section.more-info-2 h2,
+section.more-info-2 p {
+    flex: 50%;
+}
+
+section.more-info-2 h2 {
+    font-size: 2.4em;
+}
+
+img#more-info-2-img {
+    display: block;
+    margin: 2% auto;
+}
+
+section.reviews {
+    background: #FFE3C1;
+}
+
+
+
+section.app {
+    padding-bottom: 0;
+    background: #FE9A22;
+}
+
+section.app h2 {
+    margin-right: 60%;
+}
+
+section.app p.heading-description {
+    margin-right: 60%;
+}
+
+section.app > img {
+    float: right;
+    margin-top: -25%;
+}
+
+section.app h4 {
+    margin: 5% 0 1%;
+}
+
+section.app a:last-of-type {
+    margin-left: 2.5%;
+}
+
+footer {
+    padding: 5%;
+    background: black;
+}
+
+footer img[alt="Logo"] {
+    display: block;
+    margin: 0 auto;
+}
+
+footer ul.footer-nav-items {
+    width: 40%;
+    margin: 2% auto 5%;
+}
+
+footer ul.footer-nav-items li {
+    flex: 25%;
+    color: white;
+    text-align: center;
+}
+
+footer > div.flex {
+    margin-top: 2%;
+}
+
+footer p.copyright {
+    color: #D9DBE1;
+}
