@@ -780,4 +780,16 @@ footer > div.flex div.socials a img {
         height: 500px;
         background-size: cover;
     }
+
+    section.reviews .flex .review-card img {
+        width: 8%;
+    }
+
+    section.app a img {
+        width: 40%;
+    }
+
+    footer > img {
+        width: 40%;
+    }
 }
