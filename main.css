@@ -623,3 +623,53 @@ footer > div.flex div.socials a img {
         margin-top: 5%;
     }
 }
+
+
+/* Very Large Screens */
+@media (min-width: 1441px) {
+    * {
+        font-size: 40px;
+    }
+
+    nav {
+        overflow: hidden;
+    }
+
+    nav img {
+        width: 20%;
+    }
+
+    nav div.nav-items {
+        width: 62%;
+        overflow: hidden;
+    }
+
+    nav div.nav-items a:last-of-type {
+        padding-right: 0;
+    }
+
+    section.hero {
+        padding-right: 0;
+    }
+
+    section.hero h1 {
+        margin-right: 40%;
+        font-size: 4em;
+    }
+
+    section.hero p {
+        margin-right: 40%;
+        font-size: 1.8em;
+    }
+
+    section.hero button {
+        width: 30%;
+        height: 3em;
+        font-size: 1.5em;
+    }
+
+    section.hero img {
+        width: 50%;
+        margin-top: -25%;
+    }
+}
