@@ -174,6 +174,7 @@ section.process-we-follow .flex .donor-donee-styling h3 {
 }
 
 section.process-we-follow .flex .donor-donee-styling h4 {
+    font-size: 1.2em;
     font-weight: 500;
     text-align: center;
 }
@@ -245,7 +246,7 @@ section.more-info-1 p {
     margin: 2% 0 1%;
 }
 
-section.more-info-1 a {
+section.more-info-1 a span {
     color: #27B46E;
     font-size: 1.2em;
 }
@@ -254,6 +255,11 @@ section.more-info-1 a {
 section.more-info-2 h2,
 section.more-info-2 p {
     flex: 50%;
+}
+
+section.more-info-1 p,
+section.more-info-2 p {
+    font-size: 1.2em;
 }
 
 section.more-info-2 h2 {
@@ -348,6 +354,7 @@ section.app > img {
 section.app h4 {
     margin: 5% 0 1%;
     color: #18191F;
+    font-size: 1.2em;
     font-weight: 500;
 }
 
@@ -671,5 +678,56 @@ footer > div.flex div.socials a img {
     section.hero img {
         width: 50%;
         margin-top: -25%;
+    }
+
+    section.reduce-food-waste .flex .column img {
+        width: 10%;
+    }
+
+    section.process-we-follow .flex .donor-donee-styling img[alt="Icon"] {
+        width: 20%;
+        border-radius: 2em;
+    }
+
+    section.process-we-follow .flex .donor-donee-styling h4 {
+        font-size: 1.2em;
+    }
+
+    section.more-info-1 img {
+        width: 40%;
+    }
+
+    section.more-info-1 h2 {
+        margin-top: 10%;
+    }
+
+    img#more-info-2-img {
+        width: 40%;
+    }
+
+    section.app {
+        padding-bottom: 5%;
+    }
+
+    section.app > img {
+        width: 60%;
+        margin-top: -40%;
+    }
+
+    section.app a img {
+        width: 15%;
+    }
+
+    footer > img {
+        width: 20%;
+    }
+
+    footer ul.footer-nav-items {
+        width: 60%;
+    }
+
+    footer div.flex div.socials {
+        width: 30%;
+        margin-top: -2%;
     }
 }
