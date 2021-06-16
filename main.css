@@ -41,30 +41,33 @@ nav {
     padding: 2% 5%;
 }
 
-nav ul {
+nav div {
     float: right;
-    width: 45%;
+    width: 50%;
+    overflow: hidden;
 }
 
-nav ul li {
-    flex: 20%;
-    text-align: center;
+nav div a {
+    display: inline-block;
+    padding: 0 2.5%;
 }
+
 
 nav button {
-    margin-top: -10%;
-    padding: 5% 10%;
+    padding: 5% 15%;
     height: 2.5em;
     border: none;
     border-radius: 5px;
 }
 
 nav button#login-btn {
+    width: 5em;
     color: #27B46E;
     background: #E3F5EC;
 }
 
 nav button#signup-btn {
+    width: 8em;
     color: white;
     background: #27B46E;
 }
@@ -192,7 +195,11 @@ section.process-we-follow .flex .second-column {
     padding-top: 20%;
 }
 
-
+section.process-we-follow .flex .second-column img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
 
 section.ending-food-insecurity {
     background: #AFE3C9;
@@ -410,7 +417,7 @@ footer > div.flex div.socials a img {
         padding-top: 5%;
     }
 
-    nav ul.nav-items {
+    nav div.nav-items {
         float: none;
         display: block;
         margin-top: 5%;
@@ -424,20 +431,27 @@ footer > div.flex div.socials a img {
         height: auto !important;
     }
 
-    nav ul.nav-items li {
+    nav div.nav-items a {
         display: block;
         margin: 10% 0;
+        padding: 0;
         text-align: left;
     }
 
-    nav ul.nav-items li:first-of-type {
+    nav div.nav-items a:first-of-type {
         margin-top: 0;
         padding-top: 10%;
         border-top: 1px solid black;
     }
 
-    nav ul.nav-items button {
-        padding: 2.5% 10%;
+    nav div.nav-items button#login-btn,
+    nav div.nav-items button#signup-btn {
+        padding: 8px 17px;
+        text-align: left;
+    }
+
+    nav div.nav-items button#signup-btn {
+        width: 6em;
     }
 
 
@@ -476,17 +490,16 @@ footer > div.flex div.socials a img {
         margin-top: 10%;
     }
 
+    section.reduce-food-waste p.heading-description {
+        font-size: 1em;
+    }
+
     section.reduce-food-waste .flex .column {
         margin: 10% 0;
     }
 
     section.reduce-food-waste .flex .column h3 {
         font-size: 1.2em;
-    }
-
-    section.process-we-follow .flex .second-column img {
-        display: block;
-        margin: 0 auto 10%;
     }
 
     section.ending-food-insecurity p {
