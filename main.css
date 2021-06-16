@@ -424,7 +424,7 @@ footer > div.flex div.socials a img {
         width: 100%;
         height: 0em; /*changed with js*/
         overflow: hidden;
-        transition: 0.3s ease-in-out;
+        transition: 0.5s ease-in-out;
     }
 
     .active-nav-list {
@@ -450,8 +450,12 @@ footer > div.flex div.socials a img {
         text-align: left;
     }
 
+    nav div.nav-items button#login-btn {
+        width: 4.7em;
+    }
+
     nav div.nav-items button#signup-btn {
-        width: 6em;
+        width: 5.7em;
     }
 
 
