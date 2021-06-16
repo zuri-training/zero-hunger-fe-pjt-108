@@ -483,6 +483,10 @@ footer > div.flex div.socials a img {
         width: 100%;
     }
 
+    section.hero {
+        padding-right: 0;
+    }
+
     section.hero h1 {
         margin-right: 10%;
         font-size: 2.5em;
@@ -523,9 +527,12 @@ footer > div.flex div.socials a img {
     }
 
     div.bragging-rights .column {
-        padding: 10%;
-        margin: 20% 0;
-        background-size: 100%;
+        padding-top: 25%;
+        margin: 20% auto;
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        overflow: hidden;
     }
 
     section.more-info-1 {
@@ -691,6 +698,14 @@ footer > div.flex div.socials a img {
 
     section.process-we-follow .flex .donor-donee-styling h4 {
         font-size: 1.2em;
+    }
+
+    div.bragging-rights div.column {
+        flex: 20%;
+        height: 800px;
+        padding: 10% 0 0;
+        margin: 0 0.625%;
+        background-size: cover;
     }
 
     section.more-info-1 img {
