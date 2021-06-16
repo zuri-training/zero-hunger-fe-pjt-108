@@ -746,3 +746,11 @@ footer > div.flex div.socials a img {
         margin-top: -2%;
     }
 }
+
+
+/* Minor Issues */
+@media (min-width: 800px) and (max-width: 1024px) {
+    div.bragging-rights div.column {
+        padding-top: 10%;
+    }
+}
