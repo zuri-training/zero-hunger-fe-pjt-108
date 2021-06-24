@@ -414,7 +414,7 @@ footer > div.flex div.socials a img {
 
 
 
-
+/* Responsiveness begins */
 @media (max-width: 1024px) {
     .flex {
         display: block;
@@ -641,10 +641,6 @@ footer > div.flex div.socials a img {
 
 /* Very Large Screens */
 @media (min-width: 1441px) {
-    * {
-        font-size: 40px;
-    }
-
     nav {
         overflow: hidden;
     }
@@ -654,8 +650,17 @@ footer > div.flex div.socials a img {
     }
 
     nav div.nav-items {
-        width: 62%;
+        width: 50%;
         overflow: hidden;
+    }
+
+    nav div a {
+        font-size: 1em;
+    }
+
+    nav button#login-btn,
+    nav button#signup-btn {
+        font-size: 1em;
     }
 
     nav div.nav-items a:last-of-type {
@@ -684,7 +689,7 @@ footer > div.flex div.socials a img {
 
     section.hero img {
         width: 50%;
-        margin-top: -25%;
+        margin-top: -15%;
     }
 
     section.reduce-food-waste .flex .column img {
@@ -726,7 +731,7 @@ footer > div.flex div.socials a img {
 
     section.app > img {
         width: 60%;
-        margin-top: -40%;
+        margin-top: -20%;
     }
 
     section.app a img {
@@ -747,49 +752,12 @@ footer > div.flex div.socials a img {
     }
 }
 
-
-/* Minor Issues on Tablet Screens and Desktop mode on mobile devices */
-@media (min-width: 800px) and (max-width: 1024px) {
-    * {
-        font-size: 36px;
+/* Slight Break */
+@media (min-width: 1020px) and (max-width: 1247px) {
+    nav {
+        overflow: hidden;
     }
-
-    nav > img {
-        width: 40%;
-    }
-
-    nav svg {
-        width: 1.5em;
-        height: 1.5em;
-
-    }
-
-    section.reduce-food-waste .flex img {
-        width: 10%;
-    }
-
-    section.process-we-follow .flex .donor-donee-styling img[alt="Icon"] {
-        width: 18%;
-        border-radius: 10em;
-    }
-
-    div.bragging-rights div.column {
-        padding-top: 15%;
-        margin: 20% auto;
-        width: 500px;
-        height: 500px;
-        background-size: cover;
-    }
-
-    section.reviews .flex .review-card img {
-        width: 8%;
-    }
-
-    section.app a img {
-        width: 40%;
-    }
-
-    footer > img {
-        width: 40%;
+    nav div {
+        width: 70%;
     }
 }
