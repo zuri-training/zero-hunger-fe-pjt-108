@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./dashboard.css">
+    <!-- <title>Dashboard</title> -->
+</head>
+<body>
+    <div class="wrapper">
+        <div id="navBar">
+            <div class="top" id="hamburger">
+                <i class= "fa fa-bars"></i>
+            </div>
+            <div id="options">
+                <h3>Dashboard</h3>
+                <div class="options">
+                    <i class="fa fa-plus"></i>
+                    <a href="#">Upload Donation</a>
+                </div>
+                <div class="options">
+                    <i class="fa fa-eye"></i>
+                    <a href="#">View Donation</a>
+                </div>
+            </div>
+            
+        </div>
+        <div id="main">
+            <div id="menu">
+                <div class="top" id="dashboardTop">
+                    <i class="fa fa-angle-left"></i><span>Dashboard</span>
+                    <span id="right">D</span>
+                </div>
+            </div>
+            <div id="info">
+                <iframe src="viewDonations.html" style="width: 100%; min-height: 85vh; border: none; overflow: hidden;"></iframe>
+            </div>
+        </div>
+    </div>
+    <script src="dashboard.js"></script>
+</body>
+</html>
