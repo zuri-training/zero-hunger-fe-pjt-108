@@ -21,7 +21,6 @@
 }
 #navBar{
     background:#27B46E;
-    /* display: none; */
 }
 .fa-bars{
     float: right;
@@ -67,10 +66,7 @@
     color: #27B46E;
 }
 
-/* #main{
-    background-color: wheat;
-    width: 100vw;
-} */
+
 #dashboardTop{
     border-style: none none solid solid;
     border-color: #F4F5F7;
