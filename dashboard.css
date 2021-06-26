@@ -89,3 +89,88 @@
     margin: 15px 16px;
     padding-top: 5px;
 }
+iframe{
+    width: 100%;
+    min-height: 85vh;
+    border: none;
+    overflow: hidden;"
+}
+
+@media only screen and (max-width:1024px){
+    .wrapper{
+        display: block;
+    }
+    .top{
+        height: 80px;
+    }
+    .fa-angle-left{
+        padding-top: 30px;
+        font-size: 30px;
+    }
+    #right{
+        margin-top: 25px;
+        padding-top: 1px;
+    }
+    #dashboardTop{
+        background: #27B46E;
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    #navBar{
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        height: fit-content;
+        background:none;
+    }
+    #hamburger, #options h3{
+        display: none;
+    }
+    #options{
+        padding-top: 1px;
+        width: 100vw;
+        display: grid;
+        margin: auto;
+        grid-template-columns:auto auto;
+    }
+    #text{
+        display: none;
+    }
+    hr{
+        display: block;
+    }
+    .options{
+        margin: unset;
+        background-color:black;
+        height: fit-content;
+        padding-top: 0;
+    }
+    .options .fa{
+        color: #27B46E;
+        background:none;
+        margin-left: 20vw;
+        font-size: 40px;
+    }
+
+}
+@media only screen and (max-width:900px){
+    .top{
+        height: 50px;
+    }
+    .fa-angle-left{
+        padding-top: 10px;
+        font-size: 24px;
+    }
+    #right{
+        margin-top: 5px;
+        padding-top: 3px;
+        width: 30px;
+        height: 30px;
+    }
+    #dashboardTop{
+        font-size: 21px;
+    }
+    .options .fa{
+        font-size: 21px;
+    }
+}
