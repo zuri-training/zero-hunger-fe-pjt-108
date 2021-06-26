@@ -39,11 +39,17 @@ button {
 
 nav {
     padding: 2% 5%;
+    overflow: hidden;
+}
+
+nav img {
+    width: 20%;
 }
 
 nav div {
     float: right;
     width: 50%;
+    padding-top: 0.5%;
     overflow: hidden;
 }
 
@@ -641,21 +647,17 @@ footer > div.flex div.socials a img {
 
 /* Very Large Screens */
 @media (min-width: 1441px) {
-    nav {
-        overflow: hidden;
-    }
-
-    nav img {
-        width: 20%;
+    * {
+        font-size: 32px;
     }
 
     nav div.nav-items {
-        width: 50%;
+        width: 60%;
         overflow: hidden;
     }
 
     nav div a {
-        font-size: 1em;
+        font-size: 1.2em;
     }
 
     nav button#login-btn,
@@ -682,8 +684,8 @@ footer > div.flex div.socials a img {
     }
 
     section.hero button {
-        width: 30%;
-        height: 3em;
+        width: 25%;
+        height: 2.5em;
         font-size: 1.5em;
     }
 
@@ -754,10 +756,19 @@ footer > div.flex div.socials a img {
 
 /* Slight Break */
 @media (min-width: 1020px) and (max-width: 1247px) {
-    nav {
-        overflow: hidden;
-    }
     nav div {
         width: 70%;
+    }
+}
+
+
+/* Zooming out and Nav bar breaking */
+@media (min-width: 1440px) and (max-width: 2340px) {
+    * {
+        font-size: 18px;
+    }
+
+    nav div {
+        width: 60%;
     }
 }
