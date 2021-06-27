@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: inter;
+    /* overflow: hidden; */
 }
 .wrapper{
     margin: auto auto;
@@ -11,17 +12,21 @@
     grid-column: 0px;
     padding: 0;
     position: relative;
-    height: 100vh;
+    min-height: 100vh;
 }
 .top{
     background:#FFFFFF;
     height: 68px;
+}
+#hamburger{
+    font-size: 30px;
 }
 .fa{
     font-size: 24px;
 }
 #navBar{
     background:#27B46E;
+    position: sticky;
 }
 .fa-bars{
     float: right;
@@ -66,7 +71,11 @@
 .options:hover a{
     color: #27B46E;
 }
-
+#main{
+    /* background-color: pink; */
+    height: 100vh;
+    overflow: scroll;
+}
 
 #dashboardTop{
     border-style: none none solid solid;
@@ -89,12 +98,7 @@
     margin: 15px 16px;
     padding-top: 5px;
 }
-iframe{
-    width: 100%;
-    min-height: 85vh;
-    border: none;
-    overflow: hidden;
-}
+
 
 @media only screen and (max-width:1024px){
     .wrapper{

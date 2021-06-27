@@ -4,8 +4,16 @@
     box-sizing: border-box;
     font-family: inter;
 }
-
-.wrapper{
+body{
+    margin: auto auto;
+    display: grid;
+    grid-template-columns: max-content auto;
+    grid-column: 0px;
+    padding: 0;
+    position: relative;
+    height: 100vh;
+}
+.wrap{
     padding: 30px 51px;
 }
 h2{
@@ -68,7 +76,7 @@ button{
 }
 
 @media only screen and (orientation:portrait){
-    .wrapper{
+    .wrap{
         padding: 25px 20px;
     }
     tr{
