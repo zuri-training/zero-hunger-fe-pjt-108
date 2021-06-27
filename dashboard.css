@@ -87,6 +87,9 @@
     border-width: 2px;
     font-size: 24px;
 }
+#screenTopMobile{
+    display: none;
+}
 .fa-angle-left{
     padding: 20px 13px;
 }
@@ -124,6 +127,12 @@
         background: #27B46E;
         color: #FFFFFF;
         font-size: 30px;
+    }
+    #screenTopMobile{
+        display: unset;
+    }
+    #screenTopDesktop{
+        display: none;
     }
     #navBar{
         position: fixed;
