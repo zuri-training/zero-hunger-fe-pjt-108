@@ -50,7 +50,7 @@ section p.heading-description {
 }
 
 section.hero {
-    background-image: url("img/hero-bg.svg");
+    background-image: url("../img/hero-bg.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
