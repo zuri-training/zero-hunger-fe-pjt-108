@@ -34,69 +34,6 @@ button {
     flex-flow: wrap;
 }
 
-header {
-    padding: 2% 5%;
-    overflow: hidden;
-}
-
-header img {
-    width: 20%;
-}
-
-header nav {
-    float: right;
-    width: 50%;
-    padding-top: 0.5%;
-    overflow: hidden;
-}
-
-header nav a {
-    display: inline-block;
-    padding: 0 2.5%;
-}
-
-
-nav button {
-    padding: 5% 15%;
-    height: 2.5em;
-    border: none;
-    border-radius: 5px;
-}
-
-nav button#login-btn {
-    width: 5em;
-    color: #27B46E;
-    background: #E3F5EC;
-    outline: #27B46E;
-}
-
-nav button#login-btn:hover {
-    color: white;
-    background: #27B46E;
-}
-
-nav button#signup-btn {
-    width: 8em;
-    color: white;
-    background: #27B46E;
-    outline: black;
-}
-
-nav button#signup-btn:hover {
-    border: 1px solid black;
-    color: #27B46E;
-    background: transparent;
-}
-
-header button#hamburger-icon-container {
-    float: right;
-    display: none;
-    border: none;
-    margin-top: 4%;
-    background: none;
-    cursor: pointer;
-}
-
 section {
     padding: 10% 5%;
     overflow: hidden;
@@ -683,24 +620,6 @@ footer > div.flex div.socials a img {
         font-size: 32px;
     }
 
-    header nav {
-        width: 60%;
-        overflow: hidden;
-    }
-
-    header nav a {
-        font-size: 1.2em;
-    }
-
-    nav button#login-btn,
-    nav button#signup-btn {
-        font-size: 1em;
-    }
-
-    header nav a:last-of-type {
-        padding-right: 0;
-    }
-
     section.hero {
         padding-right: 0;
     }
@@ -786,21 +705,10 @@ footer > div.flex div.socials a img {
     }
 }
 
-/* Slight Break */
-@media (min-width: 1025px) and (max-width: 1247px) {
-    header nav {
-        width: 70%;
-    }
-}
-
 
 /* Zooming out and Nav bar breaking */
 @media (min-width: 1440px) and (max-width: 2340px) {
     * {
         font-size: 18px;
-    }
-
-    header nav {
-        width: 60%;
     }
 }
