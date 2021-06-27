@@ -461,25 +461,24 @@ footer > div.flex div.socials a img {
         display: block;
         margin-top: 5%;
         width: 100%;
-        height: 0em; /*changed with js*/
+        height: 0em; /* changes with js */
         overflow: hidden;
         transition: 0.5s ease-in-out;
     }
 
     .active-nav-list {
-        height: auto !important;
+        height: 352px !important;
     }
 
     header nav a {
         display: block;
-        margin: 10% 0;
-        padding: 0;
+        height: 70px;
+        margin: 0;
+        padding-top: 20px;
         text-align: left;
     }
 
     header nav a:first-of-type {
-        margin-top: 0;
-        padding-top: 10%;
         border-top: 1px solid black;
     }
 
