@@ -95,6 +95,9 @@ header button#hamburger-icon-container {
     margin-top: 4%;
     background: none;
     cursor: pointer;
+}
+
+header button#hamburger-icon-container:hover {
     outline: 1px solid black;
 }
 
