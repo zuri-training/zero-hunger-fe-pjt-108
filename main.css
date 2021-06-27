@@ -67,6 +67,7 @@ nav button#login-btn {
     width: 5em;
     color: #27B46E;
     background: #E3F5EC;
+    outline: #27B46E;
 }
 
 nav button#login-btn:hover {
@@ -78,6 +79,7 @@ nav button#signup-btn {
     width: 8em;
     color: white;
     background: #27B46E;
+    outline: black;
 }
 
 nav button#signup-btn:hover {
@@ -86,13 +88,15 @@ nav button#signup-btn:hover {
     background: transparent;
 }
 
-header #hamburger-icon {
-    display: none;
+header button#hamburger-icon-container {
     float: right;
+    display: none;
+    border: none;
     margin-top: 4%;
+    background: none;
     cursor: pointer;
+    outline: 1px solid black;
 }
-
 
 section {
     padding: 10% 5%;
@@ -494,11 +498,11 @@ footer > div.flex div.socials a img {
     }
 
     header nav button#signup-btn {
-        width: 5.7em;
+        width: 6em;
     }
 
 
-    header #hamburger-icon {
+    header button#hamburger-icon-container {
         display: block;
     }
 
