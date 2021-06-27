@@ -467,6 +467,7 @@ footer > div.flex div.socials a img {
     }
 
     .active-nav-list {
+        width: 100%;
         height: 352px !important;
     }
 
@@ -783,7 +784,7 @@ footer > div.flex div.socials a img {
 }
 
 /* Slight Break */
-@media (min-width: 1020px) and (max-width: 1247px) {
+@media (min-width: 1025px) and (max-width: 1247px) {
     header nav {
         width: 70%;
     }
