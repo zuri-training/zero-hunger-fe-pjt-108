@@ -97,10 +97,6 @@ header button#hamburger-icon-container {
     cursor: pointer;
 }
 
-header button#hamburger-icon-container:hover {
-    outline: 1px solid black;
-}
-
 section {
     padding: 10% 5%;
     overflow: hidden;
