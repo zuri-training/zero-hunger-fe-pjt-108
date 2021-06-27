@@ -89,7 +89,7 @@ nav button#signup-btn:hover {
 header #hamburger-icon {
     display: none;
     float: right;
-    margin-top: 2%;
+    margin-top: 4%;
     cursor: pointer;
 }
 
@@ -453,7 +453,7 @@ footer > div.flex div.socials a img {
     }
 
     header img {
-        width: 40%;
+        width: 60%;
     }
 
     header nav {
@@ -642,7 +642,7 @@ footer > div.flex div.socials a img {
 
 
     footer img[alt="Logo"] {
-        width: 40%;
+        width: 60%;
         margin: 0;
     }
 
