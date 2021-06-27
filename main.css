@@ -24,11 +24,8 @@ p {
     line-height: 1.7em;
 }
 
-li {
-    list-style: none;
-}
-
 button {
+    transition: 0.3s ease-in-out;
     cursor: pointer;
 }
 
@@ -37,23 +34,23 @@ button {
     flex-flow: wrap;
 }
 
-nav {
+header {
     padding: 2% 5%;
     overflow: hidden;
 }
 
-nav img {
+header img {
     width: 20%;
 }
 
-nav div {
+header nav {
     float: right;
     width: 50%;
     padding-top: 0.5%;
     overflow: hidden;
 }
 
-nav div a {
+header nav a {
     display: inline-block;
     padding: 0 2.5%;
 }
@@ -72,13 +69,24 @@ nav button#login-btn {
     background: #E3F5EC;
 }
 
+nav button#login-btn:hover {
+    color: white;
+    background: #27B46E;
+}
+
 nav button#signup-btn {
     width: 8em;
     color: white;
     background: #27B46E;
 }
 
-nav #hamburger-icon {
+nav button#signup-btn:hover {
+    border: 1px solid black;
+    color: #27B46E;
+    background: transparent;
+}
+
+header #hamburger-icon {
     display: none;
     float: right;
     margin-top: 2%;
@@ -138,6 +146,13 @@ section.hero button {
     border-radius: 5px;
     color: white;
     background: #27B46E;
+    transition: 0.3s ease-in-out;
+}
+
+section.hero button:hover {
+    border: 1px solid black;
+    color: #27B46E;
+    background: transparent;
 }
 
 section.reduce-food-waste {
@@ -210,6 +225,7 @@ section.process-we-follow .flex .second-column img {
 
 section.ending-food-insecurity {
     background: #AFE3C9;
+    border: 1px solid black;
 }
 
 div.bragging-rights {
@@ -378,12 +394,12 @@ footer img[alt="Logo"] {
     margin: 0 auto;
 }
 
-footer ul.footer-nav-items {
+footer nav {
     width: 40%;
     margin: 2% auto 5%;
 }
 
-footer ul.footer-nav-items li {
+footer nav a {
     flex: 25%;
     color: white;
     text-align: center;
@@ -411,6 +427,11 @@ footer > div.flex div.socials a {
     width: 4em;
     height: 4em;
     border-radius: 5em;
+    transition: 0.3s ease-in-out;
+}
+
+footer > div.flex div.socials a:hover {
+    background: #27B46E;
 }
 
 footer > div.flex div.socials a img {
@@ -426,11 +447,11 @@ footer > div.flex div.socials a img {
         display: block;
     }
 
-    nav {
+    header {
         padding-top: 5%;
     }
 
-    nav div.nav-items {
+    header nav {
         float: none;
         display: block;
         margin-top: 5%;
@@ -444,30 +465,30 @@ footer > div.flex div.socials a img {
         height: auto !important;
     }
 
-    nav div.nav-items a {
+    header nav a {
         display: block;
         margin: 10% 0;
         padding: 0;
         text-align: left;
     }
 
-    nav div.nav-items a:first-of-type {
+    header nav a:first-of-type {
         margin-top: 0;
         padding-top: 10%;
         border-top: 1px solid black;
     }
 
-    nav div.nav-items button#login-btn,
-    nav div.nav-items button#signup-btn {
+    header nav button#login-btn,
+    header nav button#signup-btn {
         padding: 8px 17px;
         text-align: left;
     }
 
-    nav div.nav-items button#login-btn {
+    header nav button#login-btn {
         width: 4.7em;
     }
 
-    nav div.nav-items button#signup-btn {
+    header nav button#signup-btn {
         width: 5.7em;
     }
 
@@ -522,6 +543,7 @@ footer > div.flex div.socials a img {
     section.reduce-food-waste .flex .column h3 {
         font-size: 1.2em;
     }
+
 
     section.ending-food-insecurity p {
         margin-top: 5%;
@@ -618,17 +640,17 @@ footer > div.flex div.socials a img {
         margin: 0;
     }
 
-    footer ul.footer-nav-items {
+    footer nav {
         width: 100%;
         margin: 5% 0;
     }
 
-    footer ul.footer-nav-items li {
+    footer nav a {
         margin: 10% 0;
         text-align: left;
     }
 
-    footer ul.footer-nav-items li:last-of-type {
+    footer nav a:last-of-type {
         margin-top: 20%;
     }
 
@@ -651,12 +673,12 @@ footer > div.flex div.socials a img {
         font-size: 32px;
     }
 
-    nav div.nav-items {
+    header nav {
         width: 60%;
         overflow: hidden;
     }
 
-    nav div a {
+    header nav a {
         font-size: 1.2em;
     }
 
@@ -665,7 +687,7 @@ footer > div.flex div.socials a img {
         font-size: 1em;
     }
 
-    nav div.nav-items a:last-of-type {
+    header nav a:last-of-type {
         padding-right: 0;
     }
 
@@ -744,7 +766,7 @@ footer > div.flex div.socials a img {
         width: 20%;
     }
 
-    footer ul.footer-nav-items {
+    footer nav {
         width: 60%;
     }
 
@@ -756,7 +778,7 @@ footer > div.flex div.socials a img {
 
 /* Slight Break */
 @media (min-width: 1020px) and (max-width: 1247px) {
-    nav div {
+    header nav {
         width: 70%;
     }
 }
@@ -768,7 +790,7 @@ footer > div.flex div.socials a img {
         font-size: 18px;
     }
 
-    nav div {
+    header nav {
         width: 60%;
     }
 }
