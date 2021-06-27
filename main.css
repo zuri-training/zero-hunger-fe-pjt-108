@@ -391,6 +391,7 @@ footer {
 
 footer img[alt="Logo"] {
     display: block;
+    width: 20%;
     margin: 0 auto;
 }
 
@@ -641,6 +642,7 @@ footer > div.flex div.socials a img {
 
 
     footer img[alt="Logo"] {
+        width: 40%;
         margin: 0;
     }
 
@@ -650,6 +652,7 @@ footer > div.flex div.socials a img {
     }
 
     footer nav a {
+        display: block;
         margin: 10% 0;
         text-align: left;
     }
