@@ -451,6 +451,10 @@ footer > div.flex div.socials a img {
         padding-top: 5%;
     }
 
+    header img {
+        width: 40%;
+    }
+
     header nav {
         float: none;
         display: block;
@@ -493,7 +497,7 @@ footer > div.flex div.socials a img {
     }
 
 
-    nav #hamburger-icon {
+    header #hamburger-icon {
         display: block;
     }
 
