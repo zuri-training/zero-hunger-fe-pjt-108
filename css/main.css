@@ -1,0 +1,714 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+button {
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    flex-flow: wrap;
+}
+
+section {
+    padding: 10% 5%;
+    overflow: hidden;
+}
+
+section h2 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+section p.heading-description {
+    margin-top: 1%;
+    font-size: 1.2em;
+}
+
+section.hero {
+    background-image: url("../img/hero-bg.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section.hero img {
+    float: right;
+    margin-top: -30%;
+}
+
+
+section.hero h1 {
+    margin-right: 60%;
+    font-size: 4em;
+    font-weight: 800;
+}
+
+section.hero h1 span {
+    color: #FE9A22;
+    font-size: 100%;
+    font-weight: inherit;
+}
+
+section.hero p {
+    margin: 2% 60% 2% 0;
+    font-size: 1.3em;
+}
+
+section.hero button {
+    width: 20%;
+    height: 2.5em;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: #27B46E;
+    transition: 0.3s ease-in-out;
+}
+
+section.hero button:hover {
+    border: 1px solid black;
+    color: #27B46E;
+    background: transparent;
+}
+
+section.reduce-food-waste {
+    text-align: center;
+}
+
+section.reduce-food-waste .flex {
+    margin-top: 5%;
+}
+
+section.reduce-food-waste .flex .column {
+    flex: 33.33%;
+}
+
+section.reduce-food-waste .flex .column h3 {
+    margin: 5% 0 1%;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+section.process-we-follow h2,
+section.process-we-follow p {
+    text-align: center;
+}
+
+section.process-we-follow .flex {
+    margin-top: 5%;
+}
+
+section.process-we-follow .flex .column {
+    flex: 33.33%;
+}
+
+section.process-we-follow .flex .donor-donee-styling h3 {
+    margin-bottom: 5%;
+    color: #FE9A22;
+    font-size: 1.5em;
+    font-weight: 600;
+    text-align: center;
+}
+
+section.process-we-follow .flex .donor-donee-styling h4 {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+section.process-we-follow .flex .donor-donee-styling img[alt="Icon"] {
+    display: block;
+    margin: 2% auto;
+    padding: 5%;
+    border-radius: 50px;
+    background: #F4F5F7;
+}
+
+section.process-we-follow .flex .donor-donee-styling img[alt="Arrow Icon"] {
+    display: block;
+    margin: 5% auto;
+}
+
+section.process-we-follow .flex .second-column {
+    padding-top: 20%;
+}
+
+section.process-we-follow .flex .second-column img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.ending-food-insecurity {
+    background: #AFE3C9;
+    border: 1px solid black;
+}
+
+div.bragging-rights {
+    padding: 0 5%;
+    margin-top: -10%;
+    justify-content: space-between;
+}
+
+div.bragging-rights .column {
+    flex: 25%;
+    padding: 7%;
+    text-align: center;
+    background-image: url("../img/hexagon-bg.svg");
+    background-size: 60%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+div.bragging-rights .column h3 {
+    font-size: 3em;
+    font-weight: 800;
+}
+
+section.more-info-1,
+section.more-info-2 {
+    padding-bottom: 0;
+}
+
+section.more-info-1 img[alt="Image"]{
+    float: left;
+    padding-right: 10%;
+}
+
+section.more-info-1 h2 {
+    margin-top: 20%;
+    font-size: 2.4em;
+}
+
+section.more-info-1 p {
+    margin: 2% 0 1%;
+}
+
+section.more-info-1 a span {
+    color: #27B46E;
+    font-size: 1.2em;
+}
+
+
+section.more-info-2 h2,
+section.more-info-2 p {
+    flex: 50%;
+}
+
+section.more-info-1 p,
+section.more-info-2 p {
+    font-size: 1.2em;
+}
+
+section.more-info-2 h2 {
+    font-size: 2.4em;
+    padding-right: 5%;
+}
+
+img#more-info-2-img {
+    display: block;
+    margin: 2% auto;
+}
+
+section.reviews {
+    background: #FFE3C1;
+}
+
+section.reviews img.big-quote-mark {
+    position: absolute;
+    margin-top: -5%;
+}
+
+section.reviews h2 {
+    margin: 0 50% 0 10%;
+}
+
+section.reviews > p {
+    margin-left: 10%;s
+}
+
+section.reviews .flex {
+    margin-left: 30%;
+    margin-right: 10%;
+}
+
+section.reviews .flex > div {
+    flex: 50%;
+}
+
+section.reviews .flex .review-card {
+    padding: 5%;
+    background: white;
+    border-radius: 5px;
+}
+
+section.reviews .flex .review-card img {
+    position: absolute;
+    margin-left: -1.5%;
+}
+
+section.reviews .flex .review-card h3 {
+    margin: 5% 0 1%;
+    color: #18191F;
+    font-weight: 700;
+}
+
+section.reviews .flex .review-card h4 {
+    color: #969BAB;
+    font-weight: 500;
+}
+
+section.reviews .flex .other-reviews-container {
+    margin-top: -20%;
+    padding-left: 5%;
+}
+
+section.reviews .flex .other-reviews-container div {
+    padding: 5% 10%;
+}
+
+section.reviews .flex .other-reviews-container .top-review-card {
+    margin-bottom: 10%;
+}
+
+section.app {
+    padding-bottom: 0;
+    background: #FE9A22;
+}
+
+section.app h2 {
+    margin-right: 60%;
+}
+
+section.app p.heading-description {
+    margin-right: 60%;
+}
+
+section.app > img {
+    float: right;
+    margin-top: -25%;
+}
+
+section.app h4 {
+    margin: 5% 0 1%;
+    color: #18191F;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+section.app a:last-of-type {
+    margin-left: 2.5%;
+}
+
+footer {
+    padding: 5%;
+    background: black;
+}
+
+footer img[alt="Logo"] {
+    display: block;
+    width: 20%;
+    margin: 0 auto;
+}
+
+footer nav {
+    width: 40%;
+    margin: 2% auto 5%;
+}
+
+footer nav a {
+    flex: 25%;
+    color: white;
+    text-align: center;
+}
+
+footer > div.flex {
+    margin-top: 2%;
+}
+
+footer p.copyright {
+    color: #D9DBE1;
+}
+
+footer > div.flex {
+    justify-content: space-between;
+}
+
+footer > div.flex div.socials {
+    width: 25%;
+}
+
+footer > div.flex div.socials a {
+    display: inline-grid;
+    place-items: center;
+    width: 4em;
+    height: 4em;
+    border-radius: 5em;
+    transition: 0.3s ease-in-out;
+}
+
+footer > div.flex div.socials a:hover {
+    background: #27B46E;
+}
+
+footer > div.flex div.socials a img {
+    width: 60%;
+    height: 60%;
+}
+
+
+
+/* Responsiveness begins */
+@media (max-width: 1024px) {
+    .flex {
+        display: block;
+    }
+
+    header {
+        padding-top: 5%;
+    }
+
+    header img {
+        width: 60%;
+    }
+
+    header nav {
+        float: none;
+        display: block;
+        margin-top: 5%;
+        width: 100%;
+        height: 0em; /* changes with js */
+        overflow: hidden;
+        transition: 0.5s ease-in-out;
+    }
+
+    .active-nav-list {
+        width: 100%;
+        height: 352px !important;
+    }
+
+    header nav a {
+        display: block;
+        height: 70px;
+        margin: 0;
+        padding-top: 20px;
+        text-align: left;
+    }
+
+    header nav a:first-of-type {
+        border-top: 1px solid black;
+    }
+
+    header nav button#login-btn,
+    header nav button#signup-btn {
+        padding: 8px 17px;
+        text-align: left;
+    }
+
+    header nav button#login-btn {
+        width: 4.7em;
+    }
+
+    header nav button#signup-btn {
+        width: 6em;
+    }
+
+
+    header button#hamburger-icon-container {
+        display: block;
+    }
+
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    section p.heading-description {
+        margin-bottom: 10%;
+    }
+
+    section > img {
+        width: 100%;
+    }
+
+    section.hero {
+        padding-right: 0;
+    }
+
+    section.hero h1 {
+        margin-right: 10%;
+        font-size: 2.5em;
+    }
+
+    section.hero p {
+        margin: 2% 20% 5% 0;
+    }
+
+    section.hero button {
+        width: 60%;
+    }
+
+    section.hero img {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    section.reduce-food-waste p.heading-description {
+        font-size: 1em;
+    }
+
+    section.reduce-food-waste .flex .column {
+        margin: 10% 0;
+    }
+
+    section.reduce-food-waste .flex .column h3 {
+        font-size: 1.2em;
+    }
+
+
+    section.ending-food-insecurity p {
+        margin-top: 5%;
+        font-size: 1.2em;
+    }
+
+    div.bragging-rights {
+        margin: 10% 0;
+    }
+
+    div.bragging-rights .column {
+        padding-top: 25%;
+        margin: 20% auto;
+        width: 300px;
+        height: 300px;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    section.more-info-1 {
+        padding: 0;
+    }
+
+    section.more-info-1 > img[alt="Image"] {
+        float: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    section.more-info-1 h2,
+    section.more-info-1 p,
+    section.more-info-1 a {
+        padding: 0 5%;
+    }
+
+    section.more-info-1 h2,
+    section.more-info-2 h2 {
+        font-size: 2em;
+    }
+
+    img#more-info-2-img {
+        width: 100%;
+        padding: 0 5%;
+    }
+
+    section.reviews img.big-quote-mark {
+        position: unset;
+        width: 20%;
+        margin: unset;
+    }
+
+    section.reviews h2,
+    section.reviews p.heading-description {
+        margin: 0;
+    }
+
+    section.reviews h2 {
+        margin: 10% 20% 0 0;
+    }
+
+    section.reviews .flex {
+        margin: 10% 0 0;
+    }
+
+    section.reviews .flex .review-card img {
+        position: unset;
+        margin: 0;
+    }
+
+    section.reviews .flex .other-reviews-container {
+        margin-top: 10%;
+        padding: 0;
+    }
+
+    section.reviews .flex .other-reviews-container div {
+        padding: 5%;
+    }
+
+    section.app h2 {
+        margin-right: 10%;
+    }
+
+    section.app p.heading-description {
+        margin-right: 10%;
+    }
+
+    section.app > img {
+        float: none;
+         margin-top: 10%;
+    }
+
+
+    footer img[alt="Logo"] {
+        width: 60%;
+        margin: 0;
+    }
+
+    footer nav {
+        width: 100%;
+        margin: 5% 0;
+    }
+
+    footer nav a {
+        display: block;
+        margin: 10% 0;
+        text-align: left;
+    }
+
+    footer nav a:last-of-type {
+        margin-top: 20%;
+    }
+
+    footer div.flex p.copyright {
+        text-align: center;
+    }
+
+    footer div.flex div.socials {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 5%;
+    }
+}
+
+
+/* Very Large Screens */
+@media (min-width: 1441px) {
+    * {
+        font-size: 32px;
+    }
+
+    section.hero {
+        padding-right: 0;
+    }
+
+    section.hero h1 {
+        margin-right: 40%;
+        font-size: 4em;
+    }
+
+    section.hero p {
+        margin-right: 40%;
+        font-size: 1.8em;
+    }
+
+    section.hero button {
+        width: 25%;
+        height: 2.5em;
+        font-size: 1.5em;
+    }
+
+    section.hero img {
+        width: 50%;
+        margin-top: -15%;
+    }
+
+    section.reduce-food-waste .flex .column img {
+        width: 10%;
+    }
+
+    section.process-we-follow .flex .donor-donee-styling img[alt="Icon"] {
+        width: 20%;
+        border-radius: 2em;
+    }
+
+    section.process-we-follow .flex .donor-donee-styling h4 {
+        font-size: 1.2em;
+    }
+
+    div.bragging-rights div.column {
+        flex: 20%;
+        height: 800px;
+        padding: 10% 0 0;
+        margin: 0 0.625%;
+        background-size: cover;
+    }
+
+    section.more-info-1 img {
+        width: 40%;
+    }
+
+    section.more-info-1 h2 {
+        margin-top: 10%;
+    }
+
+    img#more-info-2-img {
+        width: 40%;
+    }
+
+    section.app {
+        padding-bottom: 5%;
+    }
+
+    section.app > img {
+        width: 60%;
+        margin-top: -20%;
+    }
+
+    section.app a img {
+        width: 15%;
+    }
+
+    footer > img {
+        width: 20%;
+    }
+
+    footer nav {
+        width: 60%;
+    }
+
+    footer div.flex div.socials {
+        width: 30%;
+        margin-top: -2%;
+    }
+}
+
+
+/* Zooming out and Nav bar breaking */
+@media (min-width: 1440px) and (max-width: 2340px) {
+    * {
+        font-size: 18px;
+    }
+}

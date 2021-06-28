@@ -26,7 +26,7 @@
 
 <b>1.</b> Fork the repository and clone the forked repo thereafter <br>
 <b>2.</b> Set up the communication line:
-  * Set the parent repo as your upstream 
+  * Set the parent repo as your upstream
   * for example: github.com/zuritraining/repo.git)
   ```css
   $ git remote add upstream https://github.com/zuri-training/zero-hunger-fe-pjt-108.git
