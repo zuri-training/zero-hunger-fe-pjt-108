@@ -34,7 +34,7 @@
   ```css
   $ git checkout develop
   ```
-<b>4.</b>  After updating the repo with your changes; add it to git and commit it with a short message
+<b>4.</b>  After updating the repo with your changes; add it to git and commit it with a short illustrative message that coincide
   * for example:
   ```css
   $ git add .
@@ -50,9 +50,11 @@
    ```css
   $ git push origin develop
   ```
-<b>6.</b> Make a pull request to the base branch that you are adviced to make a request - to the develop branch. <br>
-<b>7.</b> Above all, try to make sure you dont push directly to the Upstream Repo.
+<b>6.</b> Make a pull request to the base branch that you are adviced to make a request - in this case, to the **develop** branch of the upstream. <br>
+<b>7.</b> Above all, try to make sure you dont push directly to the Upstream Repo and if you get stuck, google or ask your Team Lead to put you through.
+
+**PS:** Each time that you make changes after updating your local repo, kindly repeat from number 4 to number 6.
 
 <p>&nbsp;</p>
 
->##### franeldev &copy; Zuri.pjt108
+>##### `README` franeldev &copy; Zuri.Pjt108
