@@ -14,20 +14,25 @@
         <title>ViewDonations</title>
     </head>
     <body>
+        <!-- Bringing in the navBar menu  -->
         <div id="navMenu"></div>
         <script>
             $(function(){
                 $("#navMenu").load("dashboard.html");
             });
         </script>
+
         <div id="main">
             <div id="menu">
+                <!-- The dashboard top that shows what page the user is on. The styling is in dashboard.css -->
                 <div class="top" id="dashboardTop">
                     <i class="fa fa-angle-left"></i>
-                    <span id="screenTopDesktop">Dashboard</span>
-                    <span id="screenTopMobile">View Donations</span>
+                    <span id="screenTopDesktop">Dashboard</span> <!-- If it is on desktop  -->
+                    <span id="screenTopMobile">View Donations</span><!-- If it is on mobile  -->
                     <span id="right">D</span>
                 </div>
+
+                <!-- main body  -->
                 <div class="wrap">
                     <h2>Welcome <span id="name">Deola!</span></h2>
                     <div class="successfulDonations">

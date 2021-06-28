@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: inter;
+    font-family: 'Inter', sans-serif;
     /* overflow: hidden; */
 }
 .wrapper{
@@ -16,10 +16,10 @@
 }
 .top{
     background:#FFFFFF;
-    height: 68px;
+    height: 80px;
 }
 #hamburger{
-    font-size: 30px;
+    font-size: 50px;
 }
 .fa{
     font-size: 24px;
@@ -34,11 +34,10 @@
 }
 #options{
     padding-top: 71px;
-    width: 268px;
+    width: 350px;
 }
 #options h3{
-    font-size: 24px;
-    font-family: inter;
+    font-size: 35px;
     margin-left: 34px;
     color: #FFFFFF;
     font-weight: 700;
@@ -46,31 +45,33 @@
 .options{
     margin: 20px 0;
     justify-content: center;
-    height: 46px;
+    height: 60px;
     padding-top: 11px;
 }
 .options .fa{
     color: #27B46E;
     background-color: #FFFFFF;
     border-radius: 100%;
-    padding: 3px 4px;
+    padding: 3px 7px;
     margin-left: 29px;
-    margin-right: 5px;
-    height: 24px;
-    width: 24px;
+    margin-right: 20px;
+    height: 40px;
+    width: 40px;
     font-size: unset;
 }
 .options a{
     text-decoration: none;
     color: #FFFFFF;
-    font-family: inter;
-    font-size: 20px;
+    font-size: 30px;
 }
 .options:hover{
     background-color: white;
 }
 .options:hover a{
     color: #27B46E;
+}
+span{
+    font-weight: 600;
 }
 #text{
     font-weight: 500;
@@ -85,7 +86,7 @@
     border-style: none none solid solid;
     border-color: #F4F5F7;
     border-width: 2px;
-    font-size: 24px;
+    font-size: 40px;
 }
 #screenTopMobile{
     display: none;
@@ -94,8 +95,8 @@
     padding: 20px 13px;
 }
 #right{
-    width: 37px;
-    height: 37px;
+    width: 55px;
+    height: 55px;
     background-color: #FFC278;
     color: #FFFFFF;
     border-radius: 100%;
@@ -103,10 +104,47 @@
     text-align: center;
     align-items: center;
     margin: 15px 16px;
-    padding-top: 5px;
+    padding-top: 4px;
     font-weight: 700;
 }
-
+@media only screen and (max-width: 1200px){
+    .top{
+        height: 68px;
+    }
+    #hamburger{
+        font-size: 30px;
+    }
+    #options{
+        padding-top: 71px;
+        width: 268px;
+    }
+    #options h3{
+        font-size: 24px;
+        margin-left: 34px;
+    }
+    .options{
+        height: 46px;
+    }
+    .options .fa{
+        padding: 2px 3px;
+        margin-right: 5px;
+        height: 24px;
+        width: 24px;
+        font-size: unset;
+    }
+    .options a{
+        font-size: 20px;
+    }
+    #dashboardTop{
+        border-width: 2px;
+        font-size: 24px;
+    }
+    #right{
+        width: 37px;
+        height: 37px;
+        padding-top: 5px;
+    }
+}
 
 @media only screen and (max-width:1024px){
     .wrapper{
