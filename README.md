@@ -15,6 +15,13 @@
 
 - [x] Done
 
+<details>
+<summary>Figma ScreenShot :</summary>
+<p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/52055633/123642877-b1954b00-d81b-11eb-97e6-e9e722424533.png"><img src="https://user-images.githubusercontent.com/52055633/123642877-b1954b00-d81b-11eb-97e6-e9e722424533.png" alt="Landing Page" style="max-width:100%;"></a></p>
+</details>
+
+- [x] Done
+
 >## Action Map / Contribution Guidelines:
 
 <b>1.</b> Fork the repository and clone the forked repo thereafter <br>
