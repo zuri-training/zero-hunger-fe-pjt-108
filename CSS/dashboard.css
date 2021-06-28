@@ -107,7 +107,7 @@ span{
     padding-top: 4px;
     font-weight: 700;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1400px){
     .top{
         height: 68px;
     }
