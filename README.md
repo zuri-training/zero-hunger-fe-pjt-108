@@ -65,4 +65,3 @@
 <p>&nbsp;</p>
 
 >##### `README` [franeldev](https://twitter.com/franel4u) &copy; [Zuri](https://twitter.com/thezuriteam).Pjt108
->>>>>>> a9c0fdc05f835c968c9a80d0ca399b9a75ac8d1c
