@@ -1,0 +1,134 @@
+/* GLOBAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #4a4a4a;
+  background-color: #e5e5e5;
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+i,
+a,
+button {
+  cursor: pointer;
+}
+.container {
+  width: 90%;
+
+  margin: 20px auto;
+}
+.s {
+  display: flex;
+  height: 600px;
+}
+.left {
+  background-color: #27b46e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left .background {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer-text h4 {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  color: #ffffff;
+}
+.footer-text p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  /* width: 203px; */
+  color: #18191f;
+}
+.btns {
+  width: 700px;
+  padding-left: 80px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.right h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #343434;
+}
+.right button {
+  width: 403px;
+  margin: 20px 30px 0 30px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid #27b46e;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.right button a:hover {
+  background-color: #27b46e;
+  color: #fff;
+}
+.right button a {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #27b46e;
+}
+.user {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding-top: 20px;
+  text-align: center;
+  color: #343434;
+}
+.user a {
+  color: #fe9a22;
+}
+.footer-logo {
+  display: flex;
+  justify-content: flex-end;
+
+  margin: 20px 0 20px auto;
+}
+.footer-logo img {
+  width: 50%;
+}
