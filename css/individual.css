@@ -128,6 +128,7 @@ button {
   padding-top: 20px;
   text-align: center;
   color: #343434;
+  margin-bottom: 15px;
 }
 .footer-logo {
   display: flex;
@@ -137,4 +138,12 @@ button {
 }
 .footer-logo img {
   width: 50%;
+}
+@media (max-width: 767px) {
+  .left {
+    display: none;
+  }
+  .footer-logo {
+    display: none;
+  }
 }

@@ -99,9 +99,9 @@ button {
   box-sizing: border-box;
   border-radius: 6px;
 }
-.right button a:hover {
+button:hover {
   background-color: #27b46e;
-  color: #fff;
+  color: #fff !important;
 }
 .right button a {
   font-style: normal;
@@ -110,6 +110,13 @@ button {
   line-height: 22px;
   text-align: center;
   color: #27b46e;
+}
+button a:hover {
+  color: #fff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 22px;
 }
 .user {
   font-weight: 500;
@@ -130,4 +137,13 @@ button {
 }
 .footer-logo img {
   width: 50%;
+}
+
+@media (max-width:767px){
+  .left{
+    display: none;
+  }
+  .footer-logo{
+    display: none;
+  }
 }
