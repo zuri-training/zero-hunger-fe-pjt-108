@@ -79,6 +79,10 @@ main {
     font-size: 1.125rem;
 }
 
+.menu-bar {
+    display: none;
+}
+
 /* login form */
 #login {
     margin: 16vh 5vw 0;
@@ -255,4 +259,100 @@ li a {
     height: 601px;
     object-fit: contain;
     padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    #left-right-nav {
+        display: none;
+    }
+
+    .right li {
+        padding: 0.3rem 0.5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #left-right-nav {
+        display: none;
+    }
+
+    .right {
+        padding: 1rem 1.5rem 0 0;
+    }
+
+    .right li {
+        margin: 0 0.4rem 0 0;
+        padding: 0.2rem 0.3rem;
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .col-5 {
+        width: 99.96%;
+    }
+
+    .pass-input {
+        width: 80vw;
+    }
+
+    #testimonials {
+        display: none;
+    }
+
+    #left-right-nav {
+        display: block;
+    }
+
+    .login-img {
+        width: 50vw;
+        height: 150px;
+        object-fit: cover;
+        margin: 3.4rem 0 0 0;
+    }
+
+    .menu-bar {
+        display: flex;
+        position: absolute;
+        right: 0;
+        top: 0;
+        text-decoration: none;
+        color: #27B46E;
+        font-size: 20px;
+        margin: 1.2rem 3rem;
+    }
+
+    .menu-bar:hover {
+        color: #27B46E;
+        background-color: #AFE3C9;
+    }
+
+    ul li a {
+        display: block;
+    }
+
+    ul li {
+        text-align: center;
+        padding: 0.5rem;
+
+    }
+
+    ul li:hover {
+        background-color: #AFE3C9;
+    }
+
+    .right {
+        display: none !important;
+
+    }
+
+    .nav-signup a {
+        color: #18191F;
+    }
+
+    .nav-login,
+    .nav-signup {
+        border-radius: 0;
+        border: 0;
+    }
 }

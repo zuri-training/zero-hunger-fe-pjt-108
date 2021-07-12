@@ -14,9 +14,25 @@
 <body>
     <main>
         <div class="col-5">
-            <div class="left-nav">
-                <img class="nav-img" src="img/logo.png" alt="logo">
-                <a class="nav-a" href="#">Zero Hunger</a>
+            <div class="nav-bar">
+                <div>
+                    <div class="left-nav">
+                        <img class="nav-img" src="img/logo.png" alt="logo">
+                        <a class="nav-a" href="#">Zero Hunger</a>
+                    </div>
+                    <div id="left-right-nav" class="right">
+                        <ul>
+                            <li> <a href="#">How it works</a></li>
+                            <li> <a href="#">About us</a></li>
+                            <li> <a href="#">FAG</a></li>
+                            <li class="nav-login"> <a href="#">Login</a></li>
+                            <li class="nav-signup"> <a href="#">Sign up</a></li>
+                        </ul>
+                    </div>
+                        <a class="menu-bar" onclick="menuBar()">
+                            <i class="fa fa-bars"></i>
+                          </a>
+                </div>
             </div>
 
             <div id="login">
@@ -24,7 +40,7 @@
                     <h2>Welcome back, <span>Kemi</span></h2>
                     <div class="group">
                         <label for="password" class="password">Password</label>
-                        <div class="input-field col-5">
+                        <div class="input-field">
                             <div>
                                 <i class="fas fa-lock icon"></i>
                             </div>
@@ -67,5 +83,5 @@
         </div>
     </main>
 </body>
-
+<script src="JS/login.js"></script>
 </html>
