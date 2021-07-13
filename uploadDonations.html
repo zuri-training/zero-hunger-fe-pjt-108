@@ -5,6 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="CSS/viewDonations.css">
+        <link rel="stylesheet" href="CSS/uploadDonations.css">
         <link rel="stylesheet" href="./CSS/dashboard.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
@@ -21,10 +22,43 @@
             <div class="top" id="dashboardTop">
                 <i class="fa fa-angle-left"></i>
                 <span id="screenTopDesktop">Dashboard</span>
-                <span id="screenTopMobile">Upload Donations</span>
-                <span id="right">D</span>
+                <span id="screenTopMobile">Upload Donations</span> 
+                <span id="right">K</span>
             </div>
             <div class="wrap">
+                <div class="welcomeMessage">
+                    <h2>Welcome <span id="name">Kemi!</span></h2>
+                    <span id="quote">Let's build a world where nobody<br>
+                    sleeps with an empty stomach</span>
+                </div>
+                
+                <form action="#">
+                    <div class="input-field">
+                        <span class="detail">Title of Donation</span>
+                        <input title="" type="text" required>
+                    </div>
+                    <div class="input-field">
+                        <span class="detail">Description</span>
+                        <textarea id="description" title="" type="text" row size="50000" required></textarea>
+                    </div>
+                    <div class="input-field">
+                        <span class="detail">Donation Type</span>
+                        <select required>
+                            <option value="" disabled selected hidden> -- Select --</option>
+                            <option value="Processed" > Processed</option>
+                            <option value="Unprocessed" > Unprocessed</option>
+                        </select>
+                    </div>
+                    <div class="input-field">
+                        <span class="detail">Frequency of Donation</span>
+                        <input title="" type="number" placeholder="-- Select --" required>
+                    </div>
+                    <div class="input-field">
+                        <span class="detail">Upload Image</span>
+                        <input title="" type="file" accept="image/*" required >
+                    </div>
+                    <button id="uploadButton">UPLOAD</button>
+                </form>
             </div>
         </div>
     </body>

@@ -11,9 +11,9 @@ hamburger.addEventListener('click', function(){
         main.style.width="96vw"
     }
     else {
-        navigationBar.style.width="268px"
+        navigationBar.style.width="inherit"
         navigationBar.style.backgroundColor="#27B46E"
-        menu.style.display="grid"
+        menu.style.display="inherit"
         main.style.width="unset"
         console.log("jd")
     }

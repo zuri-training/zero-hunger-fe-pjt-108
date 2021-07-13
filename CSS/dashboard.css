@@ -162,11 +162,13 @@ span{
         padding-top: 1px;
     }
     #dashboardTop{
-        background: #27B46E;
-        color: #FFFFFF;
+        border: none;
+        background: none;
+        color: #000000;
         font-size: 30px;
     }
     #screenTopMobile{
+        padding-top: 135px;
         display: unset;
     }
     #screenTopDesktop{

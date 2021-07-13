@@ -1,0 +1,152 @@
+h2{
+    margin-bottom: 4px;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+#quote{
+    color: #27B46E;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 20px;
+}
+form{
+    margin-top: 47px;
+}
+.detail{
+    font-size: 28px;
+    color: rgba(0, 0, 0, 0.75);
+}
+.input-field{
+    margin-bottom: 33px;
+}
+input{
+    width: 100%;
+    border-radius: 6px;
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    height: 60px;
+    padding: 20px 18px;
+    font-size: 28px;
+}
+/* #description{
+    height: 113px;
+} */
+textarea{
+    width: 100%;
+    height: 130px;
+    border-radius: 6px;
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    padding: 12px 18px;
+    font-size: 28px;
+}
+select{
+    width: 100%;
+    height: 60px;
+    border-radius: 6px;
+    border: 0.5px solid rgba(0, 0, 0, 0.4);
+    padding: 12px 18px;
+    font-size: 28px;
+}
+#uploadButton{
+    width: 100%;
+    background-color: #27B46E;
+    color: #FFFFFF;
+    border-radius: 6px;
+    height: 62px;
+    font-size: 28px;
+}
+
+@media only screen and (max-width:1400px) {
+    #quote{
+        color: #27B46E;
+        font-size: 14px;
+    }
+    .detail{
+        font-size: 20px;
+    }
+    .input-field{
+        margin-bottom: 25px;
+        
+    }
+    input{
+        height: 52px;
+        padding: 7px 10px;
+        font-size: 20px;
+    }
+    textarea{
+        height: 113px;
+        padding: 7px 10px;
+        font-size: 20px;
+    }
+    select{
+        height: 52px;
+        padding: 7px 10px;
+        font-size: 20px;
+    }
+    #uploadButton{
+        height: 54px;
+        font-size: 20px;
+    }
+}
+@media only screen and (orientation:portrait){
+    .welcomeMessage{
+        display: none;
+    }
+}
+@media only screen and (max-width:1024px){
+    .welcomeMessage{
+        display: none;
+    }
+}
+@media only screen and (max-width:740px){
+    .input-field{
+        margin-bottom: 25px;
+        
+    }
+    .detail{
+        font-size: 14px;
+    }
+    input{
+        height: 40px;
+        font-size: 14px;
+    }
+    textarea{
+        height: 125px;
+        font-size: 14px;
+    }
+    select{
+        height: 44px;
+        font-size: 14px;
+    }
+    #uploadButton{
+        height: 35.7px;
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width:360px){
+    .input-field{
+        margin-bottom: 20px;
+        
+    }
+    .detail{
+        font-size: 12px;
+    }
+    input{
+        height: 30px;
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    textarea{
+        height: 115px;
+        font-size: 12px;
+        padding: 5px 8px;
+    }
+    select{
+        height: 34px;
+        font-size: 14px;
+        padding: 5px 8px;
+    }
+    #uploadButton{
+        height: 30.7px;
+        font-size: 14px;
+    }
+}
